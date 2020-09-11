@@ -1,3 +1,4 @@
+
 exports.handler = function(event, context, callback) {
-  console.log('Submission created!')
+console.log('Submission created!')
 };
