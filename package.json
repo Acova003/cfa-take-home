@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Acova003/cfa-take-home#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "netlify-lambda": "^2.0.1"
   }
 }
