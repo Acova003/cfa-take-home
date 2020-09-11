@@ -12,7 +12,7 @@ exports.handler = function(event, context, callback) {
     const data = JSON.parse(event.body).payload.data
     return client.messages.create({
       from: TWILIO_PHONE_NUMBER,
-      to: `${+1}${data.phoneNumber}`,
+      to: `+1${data.phoneNumber}`,
       body: `Thank you for registering to vote by mail!`
     })
     .then(() => {
