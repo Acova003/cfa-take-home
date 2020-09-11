@@ -9,10 +9,10 @@ const {
 const client = require('twilio')(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 
 exports.handler = function(event, context, callback) {
-    console.log(event)
+    const data = JSON.parse(event.body).payload.data
     return client.messages.create({
       from: TWILIO_PHONE_NUMBER,
-      to: `${+1}${phoneNumber}`,
+      to: `${+1}${data.phoneNumber}`,
       body: `Thank you for registering to vote by mail!`
     })
     .then(() => {
