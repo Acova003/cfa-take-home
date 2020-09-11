@@ -1,2 +1,4 @@
 .functions
 .env
+/node_modules/
+/functions/*.js
