@@ -20,7 +20,7 @@
 
   <div class="jumbotron">
     <h1 class="display-4">Register today</h1>
-    <form name="contact" netlify>
+    <form name="contact" class="form" method="POST" data-netlify="true">
     <p>
       <label>First Name: <input type="text" name="fname" required></label>
     </p>
@@ -102,7 +102,7 @@
       <label>Mobile Phone Number (digits only Ex: 4151236666): <input id="phone_number" name="phone_number" type="tel" autocomplete="tel" pattern="(?:\+?|\b)[0-9]{10}\b"></label>
     </p>
     <p>
-      <button type="submit">Send</button>
+      <button type="submit">Submit</button>
     </p>
   </form>
 </div>
