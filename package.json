@@ -1,0 +1,21 @@
+{
+  "name": "cfa-take-home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Building your new static site!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acova003/cfa-take-home.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Acova003/cfa-take-home/issues"
+  },
+  "homepage": "https://github.com/Acova003/cfa-take-home#readme"
+}
