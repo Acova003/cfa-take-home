@@ -10,6 +10,7 @@ const client = require('twilio')(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 
 exports.handler = function(event, context, callback) {
     const data = JSON.parse(event.body).payload.data
+    console.log(data)
     return client.messages.create({
       from: TWILIO_PHONE_NUMBER,
       to: `+1${data.phoneNumber}`,
